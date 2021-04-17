@@ -1,0 +1,27 @@
+.container{
+    background-color: red;
+    
+}
+img{
+    height: 100px;
+    top: 20px;
+    height: 60px;
+    width: 75px;
+}
+.container ul{
+   overflow: auto;
+}
+.container li{
+    list-style: none;
+    
+    margin: 30px;
+    display: inline-block;
+    bottom: 30px;
+    top: auto;
+    text-transform: uppercase;
+    tex
+}
+.container li a{
+    padding: 3px 22px;
+    top: 20px;
+}

@@ -1,0 +1,22 @@
+/* a{
+    color: aqua;
+    margin: 20px;
+    text-decoration: none;
+} */
+section{
+    background-color:brown ;
+    height: 20px;
+    width: 350px;
+}
+#g{
+    background-color:blue;
+    height: 200px;
+    width: 500px;
+}
+pre{
+    background-color:white;
+    color:red;
+}
+span{
+    color: chartreuse;
+}

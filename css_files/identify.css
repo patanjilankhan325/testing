@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=source+pro:weight@300&display=swap");
+@import url("../fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.css");
+*{
+  font-family: "source sans pro", Helvetica, sans-serif;
+  color: #414f57;
+}
+body{
+    background-image: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    line-height: 1.8;
+    letter-spacing: 5px;
+    font-weight: 200;
+    
+}
+#container{
+    background-color:white;
+    height: 400px;
+    width: 380px;
+    position: relative;
+    top: 90px;
+    left: 500px;
+    text-align: center;
+    border-radius: 6px;
+    opacity: 0.7;
+    border: 2px solid black;
+}
+ul{
+  list-style-type: none;
+}
+img{
+  border-radius: 61px;
+}
+p{
+  font-size: 11px;
+}
+h1{
+  font-weight: 500px;
+}
+li{
+  display: inline-block;
+  margin: 20px;
+  background-color:white;
+  height: 50px;
+  width: 65px;
+  border-radius: 50%;
+  border: 1px solid blanchedalmond;
+}
+.icon{
+  position: relative;
+  top: 9px;
+  left: 4px;
+}
+li:hover{
+  background-color:blanchedalmond;
+  border: 1px solid white;
+}

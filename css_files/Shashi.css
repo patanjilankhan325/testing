@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+}
+#headerblock{
+    background-color: #2874f0;
+    height: 56px;
+}
+#headerblock article{
+    display: flex;
+    width: 70%;
+    height: 56px;
+    margin: 0 auto;
+    color: white;
+    align-items: center;
+}
+.leftblock{
+    width: 70%;
+    display: flex;
+}
+.rightblock{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.logoblock{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.searchblock{
+    width: 85%;
+}
+.parentlogo img{
+    width: 70px;
+}
+.explore{
+    color: white;
+/*font-weight: 500;
+    margin-right: 2px;*/
+}
+.logoblock a{
+    text-decoration: none;
+    font-size: 12px;
+    font-size: italic;
+    text-transform: capitalize;
+}
+.plus{
+    color: #ffe500;
+    font-weight: 600;
+    margin-right: 2px;
+}
+.childlogo img{
+  width: 10px;
+}
+
+/*------search block-----*/
+.searchblock form{
+    display: flex;
+}
+
+.searchblock form input{
+ width: 95%;
+ height: 40px;
+ padding:0 0px 0 30px ;
+ border-radius: 3px;
+ border: none;
+ font-size: 14px;
+}
+/*-------------search block end---------*/
+[placeholder ="search for products,brands and more"]
+{
+    font-size: 14px;
+}
+.searcicon{
+    position: relative;
+}
+.searchblock i{
+    color: #2874f0;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    top: 2px;
+    left: -35px;
+}
+.rightblock > ul{
+    list-style: none;
+    display: flex;
+}
+.rightblock > ul li{
+    margin: opx 30px;
+    flex: 1;
+}
+.rightblock > ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.rightblock .login{
+    background-color: #fff;
+    color: #2874f0;
+    padding: 8px 45px;
+    font-weight: bold;
+}
+.dropdown{
+    position: absolute;
+    list-style: none;
+    background-color: #fff;
+    top: 55px;
+    width: 300px;
+    display: none;
+}
+.dropdown li{
+    margin: 0 !important;
+    
+}
+.dropdown li a{
+    padding: 0;
+    margin: 0;
+    color: #111  !important;
+    padding: 12px 18px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #eee;    
+}
+.rightblock ul li:hover > .dropdown{
+    display: block;
+}
+.signup li{
+    list-style: none;
+    justify-content: end;
+}
+.signupblock > ul{
+    list-style: none;
+    display: flex;
+}
+.dropdown aside{
+    position: relative;
+}
+.arrowup {
+    height: 0;
+    width:0;
+    border-bottom: 12px solid #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    position:absolute;
+    top:-10px;
+    margin: auto;
+    left:46%;
+}
+
+#offerBlock{
+    height:110px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+
+}
+#offerBlock article{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    height:110px;
+    align-items: center;
+}
+#offerBlock article div{
+    flex:1;
+
+}
+#offerBlock article div img{
+    width:70px;
+}
+#offerBlock article div a{
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #111;
+}
+
+
+
+/*-----middle menu-----*/
+
+
+#menumiddle {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+}
+#menumiddle nav {
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#menumiddle nav > ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    text-align: center;    
+}
+#menumiddle nav > ul li {
+ margin-right: 70px;
+ position:relative;
+}
+#menumiddle nav >  ul a{
+    color: #111;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 15px;
+}
+.megamenu{
+    position: absolute;
+    width: 1300px !important;
+    background-color: #fff;
+    display: none;
+    height: 85vh;
+    top: 35px;
+    text-align: left;
+}
+.megamenu div{
+    flex: 1;
+}
+.megamenu div:nth-child(odd){
+    background-color: #fff;
+}
+.megamenu div:nth-child(even){
+    background-color: #efefef2e;
+}
+.megamenu ul{
+    list-style: none;
+}
+.megamenu ul li{
+    margin: 0 !important;
+
+}
+.megamenu ul li a{
+    padding: 5px 20px;
+    display: block;
+    font-weight: normal !important;
+    font-size: 14px !important;
+}
+#menumiddle ul li:hover > .megamenu{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
